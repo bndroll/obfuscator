@@ -1,0 +1,1 @@
+(function(){let e=eval;let x = "x1 x0(x2, x3) {xnx4 x2 + x3;}xnx5.x6(x0(x7, x8))xnx5.x6(xsx9 x10xs);";let z = "";[["xb","\\"],["xn","\n"],["xq","\""],["xs","'"]].map(function(z){x=x.replace(RegExp(z[0],"g"),z[1])});z = "sum function a b return console log 1 2 hello world".split(" ");let y = z.length - 1;while(y > -1){x = x.replace(RegExp("x"+y,"g"),z[y]);y--}e(x);}());
