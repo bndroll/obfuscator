@@ -1,7 +1,5 @@
-function sum(a, b) {
-    return a + b;
-}
+const formatString = (str) => `Hello, ${str}`;
 
-console.log(sum(1, 2))
+console.log(formatString('Name'));
 
 console.log('hello world');
